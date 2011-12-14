@@ -3,7 +3,12 @@
 <plist version="1.0">
 <dict>
 	<key>fileTypes</key>
-	<array/>
+	<array>
+		<string>htm.j2</string>
+		<string>html.j2</string>
+		<string>xhtml.j2</string>
+		<string>xml.j2</string>
+	</array>
 	<key>firstLineMatch</key>
 	<string>^{% extends ["'][^"']+["'] %}</string>
 	<key>foldingStartMarker</key>

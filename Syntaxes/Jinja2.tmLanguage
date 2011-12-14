@@ -3,7 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>fileTypes</key>
-	<array/>
+	<array>
+		<string>j2</string>
+	</array>
 	<key>foldingStartMarker</key>
 	<string>({%\s*(block|filter|for|if|macro|raw))</string>
 	<key>foldingStopMarker</key>
