@@ -7,10 +7,13 @@
 		<key>items</key>
 		<array>
 			<string>85E26B4F-795C-4380-AA26-EF994D3F1220</string>
-			<string>8AC9FEED-B1BB-49A7-94FE-EAE734A90C79</string>
-			<string>44B1526F-5825-40A5-AB42-6433F1DD02D9</string>
 			<string>------------------------------------</string>
 			<string>07198D95-F344-47EB-B1F2-69F2DC10BA1F</string>
+			<string>BD126F84-B849-407F-BE62-EF984946EB82</string>
+			<string>04309583-742D-4470-8FA7-A12EF5536215</string>
+			<string>31E30D4A-5CA5-4E4A-9C13-AB8ED6C1EB94</string>
+			<string>------------------------------------</string>
+			<string>44B1526F-5825-40A5-AB42-6433F1DD02D9</string>
 		</array>
 		<key>submenus</key>
 		<dict>
@@ -18,13 +21,14 @@
 			<dict>
 				<key>items</key>
 				<array>
-					<string>5B95AA2C-B0E7-4886-9A55-90C1939D39C8</string>
-					<string>24C0F9CE-D3F1-4677-8A2E-EFFE776098F0</string>
-					<string>D3BE8551-A17F-47A4-A47D-02F00124F984</string>
-					<string>C0C77C85-3A4E-4DAE-AEE3-533FA0DEA0C0</string>
-					<string>85C07823-2B9D-4631-88E7-AEF4E1BE9482</string>
-					<string>73F00DE1-17B0-4C8C-B495-82A3689EB6F1</string>
-					<string>CE75CB61-2FDA-4139-B21E-7DE143FAFA1B</string>
+					<string>152FEFB6-EE41-47D1-B9AD-4E30AF64406C</string>
+					<string>08A0C481-0E5A-425E-9486-EC7D681DA01D</string>
+					<string>502E364B-D4D5-45F0-A996-5E71B3E5B7B6</string>
+					<string>9BE0D536-28D2-4BAB-ACDA-2DEFD0CF291A</string>
+					<string>1437E81D-2EB6-412E-8D6E-48B4D3B0685E</string>
+					<string>2B7AD6C9-0811-43B9-8E12-BE30772C7453</string>
+					<string>56CCF05B-99DA-4899-AFF2-438C61BFE6B7</string>
+					<string>2ECE58B8-7AB7-43DA-B00F-51C2533284AD</string>
 				</array>
 				<key>name</key>
 				<string>Snippets</string>
@@ -38,19 +42,6 @@
 		<string>CB0F3F8E-6062-4610-85B3-8905C61AD85A</string>
 		<string>488399C0-5D29-4704-BE85-E03A461C34E7</string>
 		<string>889E682B-196A-4424-8A87-EBFDC86BAAFC</string>
-		<string>44B1526F-5825-40A5-AB42-6433F1DD02D9</string>
-		<string>07198D95-F344-47EB-B1F2-69F2DC10BA1F</string>
-		<string>BD126F84-B849-407F-BE62-EF984946EB82</string>
-		<string>04309583-742D-4470-8FA7-A12EF5536215</string>
-		<string>31E30D4A-5CA5-4E4A-9C13-AB8ED6C1EB94</string>
-		<string>08A0C481-0E5A-425E-9486-EC7D681DA01D</string>
-		<string>502E364B-D4D5-45F0-A996-5E71B3E5B7B6</string>
-		<string>2B7AD6C9-0811-43B9-8E12-BE30772C7453</string>
-		<string>56CCF05B-99DA-4899-AFF2-438C61BFE6B7</string>
-		<string>1437E81D-2EB6-412E-8D6E-48B4D3B0685E</string>
-		<string>152FEFB6-EE41-47D1-B9AD-4E30AF64406C</string>
-		<string>2ECE58B8-7AB7-43DA-B00F-51C2533284AD</string>
-		<string>9BE0D536-28D2-4BAB-ACDA-2DEFD0CF291A</string>
 	</array>
 	<key>uuid</key>
 	<string>B4E6C4DD-43DB-473D-8E0F-662C5E64C31D</string>
