@@ -9,7 +9,7 @@
 	<key>name</key>
 	<string>For</string>
 	<key>scope</key>
-	<string>source.jinja, text.html.jinja</string>
+	<string>source.jinja2, text.html.jinja2</string>
 	<key>tabTrigger</key>
 	<string>for</string>
 	<key>uuid</key>

@@ -52,7 +52,7 @@ rm $TMPFILE</string>
 	<key>output</key>
 	<string>showAsHTML</string>
 	<key>scope</key>
-	<string>source.jinja, text.html.jinja</string>
+	<string>source.jinja2, text.html.jinja2</string>
 	<key>uuid</key>
 	<string>07198D95-F344-47EB-B1F2-69F2DC10BA1F</string>
 </dict>

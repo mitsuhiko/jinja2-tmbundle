@@ -24,7 +24,7 @@ html_footer</string>
 	<key>output</key>
 	<string>showAsHTML</string>
 	<key>scope</key>
-	<string>source.jinja, text.html.jinja</string>
+	<string>source.jinja2, text.html.jinja2</string>
 	<key>uuid</key>
 	<string>44B1526F-5825-40A5-AB42-6433F1DD02D9</string>
 </dict>

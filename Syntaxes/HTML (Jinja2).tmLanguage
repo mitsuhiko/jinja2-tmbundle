@@ -16,7 +16,7 @@
 	<array>
 		<dict>
 			<key>include</key>
-			<string>source.jinja</string>
+			<string>source.jinja2</string>
 		</dict>
 		<dict>
 			<key>include</key>
@@ -24,7 +24,7 @@
 		</dict>
 	</array>
 	<key>scopeName</key>
-	<string>text.html.jinja</string>
+	<string>text.html.jinja2</string>
 	<key>uuid</key>
 	<string>488399C0-5D29-4704-BE85-E03A461C34E7</string>
 </dict>

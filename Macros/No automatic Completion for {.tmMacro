@@ -20,7 +20,7 @@
 	<key>name</key>
 	<string>No automatic Completion for {</string>
 	<key>scope</key>
-	<string>source.jinja, text.html.jinja</string>
+	<string>source.jinja2, text.html.jinja2</string>
 	<key>uuid</key>
 	<string>31E30D4A-5CA5-4E4A-9C13-AB8ED6C1EB94</string>
 </dict>
