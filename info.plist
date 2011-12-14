@@ -82,7 +82,7 @@
 		</dict>
 	</dict>
 	<key>name</key>
-	<string>Jinja Templates</string>
+	<string>Jinja2</string>
 	<key>ordering</key>
 	<array>
 		<string>CB0F3F8E-6062-4610-85B3-8905C61AD85A</string>

@@ -6,7 +6,7 @@
 	<string>nop</string>
 	<key>command</key>
 	<string>. "$TM_SUPPORT_PATH/lib/webpreview.sh"
-html_header "Jinja Syntax Validation" "Jinja Templates"
+html_header "Jinja2 Syntax Validation" "Jinja2"
 
 export TMPFILE="$(mktemp -t tm_jinja_test__)"
 cat /dev/stdin &gt; $TMPFILE

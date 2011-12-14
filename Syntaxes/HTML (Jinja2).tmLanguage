@@ -11,7 +11,7 @@
 	<key>foldingStopMarker</key>
 	<string>(&lt;/(?i:(head|table|tr|div|style|script|ul|ol|form|dl))\b.*?&gt;|{%\s*(endblock|endfilter|endfor|endif|endmacro|endraw)\s*%})</string>
 	<key>name</key>
-	<string>HTML (Jinja Templates)</string>
+	<string>HTML (Jinja2)</string>
 	<key>patterns</key>
 	<array>
 		<dict>

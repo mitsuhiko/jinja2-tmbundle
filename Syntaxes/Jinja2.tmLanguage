@@ -9,7 +9,7 @@
 	<key>foldingStopMarker</key>
 	<string>({%\s*(endblock|endfilter|endfor|endif|endmacro|endraw)\s*%})</string>
 	<key>name</key>
-	<string>Jinja Templates</string>
+	<string>Jinja2</string>
 	<key>patterns</key>
 	<array>
 		<dict>
