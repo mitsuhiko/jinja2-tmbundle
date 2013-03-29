@@ -10,10 +10,6 @@
 			<key>command</key>
 			<string>insertText:</string>
 		</dict>
-		<dict>
-			<key>command</key>
-			<string>deleteForward:</string>
-		</dict>
 	</array>
 	<key>keyEquivalent</key>
 	<string>{</string>
