@@ -6,13 +6,13 @@
 	<string>nop</string>
 	<key>command</key>
 	<string>. "$TM_SUPPORT_PATH/lib/webpreview.sh"
-html_header "Jinja Help" "Jinja Templates"
+html_header "Jinja2 Help" "Jinja2"
 
 Markdown.pl &lt;&lt;'EOF'
 
-This document describes the commands of the TextMate Jinja Templates bundle and how you can use it. For general Jinja help you should read the documentation on the [Jinja website](http:/jinja.pocoo.org/ "Jinja Webpage").
+This document describes the commands of the TextMate Jinja2 bundle and how you can use it. For general Jinja2 help you should read the documentation on the [Jinja2 Website](http:/jinja.pocoo.org/ "Jinja2 Website").
 
-This bundle supports Jinja1 and Jinja2.
+This bundle supports Jinja2.
 
 EOF
 
@@ -24,7 +24,7 @@ html_footer</string>
 	<key>output</key>
 	<string>showAsHTML</string>
 	<key>scope</key>
-	<string>source.jinja, text.html.jinja</string>
+	<string>source.jinja2, text.html.jinja2</string>
 	<key>uuid</key>
 	<string>44B1526F-5825-40A5-AB42-6433F1DD02D9</string>
 </dict>
