@@ -19,7 +19,7 @@ sys.stdout.write("{% ${1:%s}$2 %}$3" % sys.stdin.read().replace('}', '\\}'))</st
 	<key>output</key>
 	<string>insertAsSnippet</string>
 	<key>scope</key>
-	<string>source.jinja, text.html.jinja</string>
+	<string>source.jinja2, text.html.jinja2</string>
 	<key>uuid</key>
 	<string>04309583-742D-4470-8FA7-A12EF5536215</string>
 </dict>

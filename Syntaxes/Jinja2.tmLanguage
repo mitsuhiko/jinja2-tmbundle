@@ -3,13 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>fileTypes</key>
-	<array/>
+	<array>
+		<string>j2</string>
+	</array>
 	<key>foldingStartMarker</key>
 	<string>({%\s*(block|filter|for|if|macro|raw))</string>
 	<key>foldingStopMarker</key>
 	<string>({%\s*(endblock|endfilter|endfor|endif|endmacro|endraw)\s*%})</string>
 	<key>name</key>
-	<string>Jinja Templates</string>
+	<string>Jinja2</string>
 	<key>patterns</key>
 	<array>
 		<dict>
@@ -20,23 +22,23 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>entity.other.jinja.delimiter.tag</string>
+					<string>entity.other.jinja2.delimiter.tag</string>
 				</dict>
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.control.jinja</string>
+					<string>keyword.control.jinja2</string>
 				</dict>
 				<key>3</key>
 				<dict>
 					<key>name</key>
-					<string>entity.other.jinja.delimiter.tag</string>
+					<string>entity.other.jinja2.delimiter.tag</string>
 				</dict>
 			</dict>
 			<key>end</key>
 			<string>({%)\s*(endraw)\s*(%})</string>
 			<key>name</key>
-			<string>comment.block.jinja.raw</string>
+			<string>comment.block.jinja2.raw</string>
 		</dict>
 		<dict>
 			<key>begin</key>
@@ -46,13 +48,13 @@
 				<key>0</key>
 				<dict>
 					<key>name</key>
-					<string>entity.other.jinja.delimiter.comment</string>
+					<string>entity.other.jinja2.delimiter.comment</string>
 				</dict>
 			</dict>
 			<key>end</key>
 			<string>-?#}</string>
 			<key>name</key>
-			<string>comment.block.jinja</string>
+			<string>comment.block.jinja2</string>
 		</dict>
 		<dict>
 			<key>begin</key>
@@ -62,13 +64,13 @@
 				<key>0</key>
 				<dict>
 					<key>name</key>
-					<string>entity.other.jinja.delimiter.variable</string>
+					<string>entity.other.jinja2.delimiter.variable</string>
 				</dict>
 			</dict>
 			<key>end</key>
 			<string>-?}}</string>
 			<key>name</key>
-			<string>meta.scope.jinja.variable</string>
+			<string>meta.scope.jinja2.variable</string>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -85,13 +87,13 @@
 				<key>0</key>
 				<dict>
 					<key>name</key>
-					<string>entity.other.jinja.delimiter.tag</string>
+					<string>entity.other.jinja2.delimiter.tag</string>
 				</dict>
 			</dict>
 			<key>end</key>
 			<string>-?%}</string>
 			<key>name</key>
-			<string>meta.scope.jinja.tag</string>
+			<string>meta.scope.jinja2.tag</string>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -108,7 +110,7 @@
 			<key>match</key>
 			<string>\\x[0-9A-F]{2}</string>
 			<key>name</key>
-			<string>constant.character.escape.hex.jinja</string>
+			<string>constant.character.escape.hex.jinja2</string>
 		</dict>
 		<key>escaped_unicode_char</key>
 		<dict>
@@ -117,17 +119,17 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>constant.character.escape.unicode.16-bit-hex.jinja</string>
+					<string>constant.character.escape.unicode.16-bit-hex.jinja2</string>
 				</dict>
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>constant.character.escape.unicode.32-bit-hex.jinja</string>
+					<string>constant.character.escape.unicode.32-bit-hex.jinja2</string>
 				</dict>
 				<key>3</key>
 				<dict>
 					<key>name</key>
-					<string>constant.character.escape.unicode.name.jinja</string>
+					<string>constant.character.escape.unicode.name.jinja2</string>
 				</dict>
 			</dict>
 			<key>match</key>
@@ -143,12 +145,12 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>keyword.control.jinja</string>
+							<string>keyword.control.jinja2</string>
 						</dict>
 						<key>2</key>
 						<dict>
 							<key>name</key>
-							<string>variable.other.jinja.block</string>
+							<string>variable.other.jinja2.block</string>
 						</dict>
 					</dict>
 					<key>match</key>
@@ -160,12 +162,12 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>keyword.control.jinja</string>
+							<string>keyword.control.jinja2</string>
 						</dict>
 						<key>2</key>
 						<dict>
 							<key>name</key>
-							<string>variable.other.jinja.filter</string>
+							<string>variable.other.jinja2.filter</string>
 						</dict>
 					</dict>
 					<key>match</key>
@@ -177,12 +179,12 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>keyword.control.jinja</string>
+							<string>keyword.control.jinja2</string>
 						</dict>
 						<key>2</key>
 						<dict>
 							<key>name</key>
-							<string>variable.other.jinja.test</string>
+							<string>variable.other.jinja2.test</string>
 						</dict>
 					</dict>
 					<key>match</key>
@@ -194,7 +196,7 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>keyword.control.jinja</string>
+							<string>keyword.control.jinja2</string>
 						</dict>
 					</dict>
 					<key>match</key>
@@ -204,31 +206,31 @@
 					<key>match</key>
 					<string>\b(and|else|if|in|import|not|or|recursive|with(out)?\s+context)\b</string>
 					<key>name</key>
-					<string>keyword.control.jinja</string>
+					<string>keyword.control.jinja2</string>
 				</dict>
 				<dict>
 					<key>match</key>
 					<string>\b(true|false|none)\b</string>
 					<key>name</key>
-					<string>constant.language.jinja</string>
+					<string>constant.language.jinja2</string>
 				</dict>
 				<dict>
 					<key>match</key>
 					<string>\b(loop|super|self|varargs|kwargs)\b</string>
 					<key>name</key>
-					<string>variable.language.jinja</string>
+					<string>variable.language.jinja2</string>
 				</dict>
 				<dict>
 					<key>match</key>
 					<string>[a-zA-Z_][a-zA-Z0-9_]*</string>
 					<key>name</key>
-					<string>variable.other.jinja</string>
+					<string>variable.other.jinja2</string>
 				</dict>
 				<dict>
 					<key>match</key>
 					<string>(\+|\-|\*\*|\*|//|/|%)</string>
 					<key>name</key>
-					<string>keyword.operator.arithmetic.jinja</string>
+					<string>keyword.operator.arithmetic.jinja2</string>
 				</dict>
 				<dict>
 					<key>captures</key>
@@ -236,12 +238,12 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.other.jinja</string>
+							<string>punctuation.other.jinja2</string>
 						</dict>
 						<key>2</key>
 						<dict>
 							<key>name</key>
-							<string>variable.other.jinja.filter</string>
+							<string>variable.other.jinja2.filter</string>
 						</dict>
 					</dict>
 					<key>match</key>
@@ -253,12 +255,12 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.other.jinja</string>
+							<string>punctuation.other.jinja2</string>
 						</dict>
 						<key>2</key>
 						<dict>
 							<key>name</key>
-							<string>variable.other.jinja.attribute</string>
+							<string>variable.other.jinja2.attribute</string>
 						</dict>
 					</dict>
 					<key>match</key>
@@ -272,7 +274,7 @@
 						<key>0</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.other.jinja</string>
+							<string>punctuation.other.jinja2</string>
 						</dict>
 					</dict>
 					<key>end</key>
@@ -293,7 +295,7 @@
 						<key>0</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.other.jinja</string>
+							<string>punctuation.other.jinja2</string>
 						</dict>
 					</dict>
 					<key>end</key>
@@ -314,7 +316,7 @@
 						<key>0</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.other.jinja</string>
+							<string>punctuation.other.jinja2</string>
 						</dict>
 					</dict>
 					<key>end</key>
@@ -331,19 +333,19 @@
 					<key>match</key>
 					<string>(\.|:|\||,)</string>
 					<key>name</key>
-					<string>punctuation.other.jinja</string>
+					<string>punctuation.other.jinja2</string>
 				</dict>
 				<dict>
 					<key>match</key>
 					<string>(==|&lt;=|=&gt;|&lt;|&gt;|!=)</string>
 					<key>name</key>
-					<string>keyword.operator.comparison.jinja</string>
+					<string>keyword.operator.comparison.jinja2</string>
 				</dict>
 				<dict>
 					<key>match</key>
 					<string>=</string>
 					<key>name</key>
-					<string>keyword.operator.assignment.jinja</string>
+					<string>keyword.operator.assignment.jinja2</string>
 				</dict>
 				<dict>
 					<key>begin</key>
@@ -353,7 +355,7 @@
 						<key>0</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.definition.string.begin.jinja</string>
+							<string>punctuation.definition.string.begin.jinja2</string>
 						</dict>
 					</dict>
 					<key>end</key>
@@ -363,11 +365,11 @@
 						<key>0</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.definition.string.end.jinja</string>
+							<string>punctuation.definition.string.end.jinja2</string>
 						</dict>
 					</dict>
 					<key>name</key>
-					<string>string.quoted.double.jinja</string>
+					<string>string.quoted.double.jinja2</string>
 					<key>patterns</key>
 					<array>
 						<dict>
@@ -384,7 +386,7 @@
 						<key>0</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.definition.string.begin.jinja</string>
+							<string>punctuation.definition.string.begin.jinja2</string>
 						</dict>
 					</dict>
 					<key>end</key>
@@ -394,11 +396,11 @@
 						<key>0</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.definition.string.end.jinja</string>
+							<string>punctuation.definition.string.end.jinja2</string>
 						</dict>
 					</dict>
 					<key>name</key>
-					<string>string.quoted.single.jinja</string>
+					<string>string.quoted.single.jinja2</string>
 					<key>patterns</key>
 					<array>
 						<dict>
@@ -415,7 +417,7 @@
 						<key>0</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.definition.regexp.begin.jinja</string>
+							<string>punctuation.definition.regexp.begin.jinja2</string>
 						</dict>
 					</dict>
 					<key>end</key>
@@ -425,11 +427,11 @@
 						<key>0</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.definition.regexp.end.jinja</string>
+							<string>punctuation.definition.regexp.end.jinja2</string>
 						</dict>
 					</dict>
 					<key>name</key>
-					<string>string.regexp.jinja</string>
+					<string>string.regexp.jinja2</string>
 					<key>patterns</key>
 					<array>
 						<dict>
@@ -447,57 +449,57 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>constant.character.escape.newline.jinja</string>
+					<string>constant.character.escape.newline.jinja2</string>
 				</dict>
 				<key>10</key>
 				<dict>
 					<key>name</key>
-					<string>constant.character.escape.tab.jinja</string>
+					<string>constant.character.escape.tab.jinja2</string>
 				</dict>
 				<key>11</key>
 				<dict>
 					<key>name</key>
-					<string>constant.character.escape.vertical-tab.jinja</string>
+					<string>constant.character.escape.vertical-tab.jinja2</string>
 				</dict>
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>constant.character.escape.backlash.jinja</string>
+					<string>constant.character.escape.backlash.jinja2</string>
 				</dict>
 				<key>3</key>
 				<dict>
 					<key>name</key>
-					<string>constant.character.escape.double-quote.jinja</string>
+					<string>constant.character.escape.double-quote.jinja2</string>
 				</dict>
 				<key>4</key>
 				<dict>
 					<key>name</key>
-					<string>constant.character.escape.single-quote.jinja</string>
+					<string>constant.character.escape.single-quote.jinja2</string>
 				</dict>
 				<key>5</key>
 				<dict>
 					<key>name</key>
-					<string>constant.character.escape.bell.jinja</string>
+					<string>constant.character.escape.bell.jinja2</string>
 				</dict>
 				<key>6</key>
 				<dict>
 					<key>name</key>
-					<string>constant.character.escape.backspace.jinja</string>
+					<string>constant.character.escape.backspace.jinja2</string>
 				</dict>
 				<key>7</key>
 				<dict>
 					<key>name</key>
-					<string>constant.character.escape.formfeed.jinja</string>
+					<string>constant.character.escape.formfeed.jinja2</string>
 				</dict>
 				<key>8</key>
 				<dict>
 					<key>name</key>
-					<string>constant.character.escape.linefeed.jinja</string>
+					<string>constant.character.escape.linefeed.jinja2</string>
 				</dict>
 				<key>9</key>
 				<dict>
 					<key>name</key>
-					<string>constant.character.escape.return.jinja</string>
+					<string>constant.character.escape.return.jinja2</string>
 				</dict>
 			</dict>
 			<key>match</key>
@@ -523,7 +525,7 @@
 		</dict>
 	</dict>
 	<key>scopeName</key>
-	<string>source.jinja</string>
+	<string>source.jinja2</string>
 	<key>uuid</key>
 	<string>CB0F3F8E-6062-4610-85B3-8905C61AD85A</string>
 </dict>
