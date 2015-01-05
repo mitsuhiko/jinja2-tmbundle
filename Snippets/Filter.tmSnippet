@@ -9,7 +9,7 @@
 	<key>name</key>
 	<string>Filter</string>
 	<key>scope</key>
-	<string>source.jinja, text.html.jinja</string>
+	<string>source.jinja2, text.html.jinja2</string>
 	<key>tabTrigger</key>
 	<string>filter</string>
 	<key>uuid</key>

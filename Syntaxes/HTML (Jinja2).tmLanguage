@@ -3,7 +3,12 @@
 <plist version="1.0">
 <dict>
 	<key>fileTypes</key>
-	<array/>
+	<array>
+		<string>htm.j2</string>
+		<string>html.j2</string>
+		<string>xhtml.j2</string>
+		<string>xml.j2</string>
+	</array>
 	<key>firstLineMatch</key>
 	<string>^{% extends ["'][^"']+["'] %}</string>
 	<key>foldingStartMarker</key>
@@ -11,12 +16,12 @@
 	<key>foldingStopMarker</key>
 	<string>(&lt;/(?i:(head|table|tr|div|style|script|ul|ol|form|dl))\b.*?&gt;|{%\s*(endblock|endfilter|endfor|endif|endmacro|endraw)\s*%})</string>
 	<key>name</key>
-	<string>HTML (Jinja Templates)</string>
+	<string>HTML (Jinja2)</string>
 	<key>patterns</key>
 	<array>
 		<dict>
 			<key>include</key>
-			<string>source.jinja</string>
+			<string>source.jinja2</string>
 		</dict>
 		<dict>
 			<key>include</key>
@@ -24,7 +29,7 @@
 		</dict>
 	</array>
 	<key>scopeName</key>
-	<string>text.html.jinja</string>
+	<string>text.html.jinja2</string>
 	<key>uuid</key>
 	<string>488399C0-5D29-4704-BE85-E03A461C34E7</string>
 </dict>
