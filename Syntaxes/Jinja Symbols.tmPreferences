@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Jinja Symbols</string>
+	<key>scope</key>
+	<string>variable.other.jinja.macro</string>
+	<key>settings</key>
+	<dict>
+		<key>showInIndexedSymbolList</key>
+		<string>1</string>
+		<key>showInSymbolList</key>
+		<string>1</string>
+		<key>symbolTransformation</key>
+		<string>s/\s+/ /g;</string>
+	</dict>
+	<key>uuid</key>
+	<string>CB0F3F8E-6062-4610-85B3-8905C61AD85A</string>
+</dict>
+</plist>
