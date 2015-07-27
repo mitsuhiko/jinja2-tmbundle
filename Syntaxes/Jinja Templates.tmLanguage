@@ -208,7 +208,7 @@
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>\b(true|false|none)\b</string>
+					<string>\b([Tt]rue|[Ff]alse|[Nn]one)\b</string>
 					<key>name</key>
 					<string>constant.language.jinja</string>
 				</dict>
