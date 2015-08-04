@@ -6,19 +6,19 @@
 	<string>nop</string>
 	<key>command</key>
 	<string>. "$TM_SUPPORT_PATH/lib/webpreview.sh"
-html_header "Jinja Syntax Validation" "Jinja Templates"
+html_header "Jinja2 Syntax Validation" "Jinja2"
 
 export TMPFILE="$(mktemp -t tm_jinja_test__)"
 cat /dev/stdin &gt; $TMPFILE
 
 python &lt;&lt;'END'
 try:
-    from jinja import Environment
-    from jinja.exceptions import TemplateSyntaxError
-    e = Environment()
+    from jinja2 import environment
+    from jinja2.exceptions import TemplateSyntaxError
+    e = environment.Environment()
 except ImportError, e:
     print "&lt;h2&gt;Error&lt;/h2&gt;"
-    print "&lt;p&gt;Jinja is not installed on this system, cannot perform syntax check.&lt;/p&gt;"
+    print "&lt;p&gt;Jinja2 is not installed on this system, cannot perform syntax check.&lt;/p&gt;"
 else:
     import sys, os
     from cgi import escape
@@ -34,7 +34,7 @@ else:
         print e.from_string('''
           &lt;h2&gt;Syntax Error in Line {{ err.lineno or '?' }}&lt;/h2&gt;
           &lt;p&gt;{{ err.message|e }}&lt;/p&gt;
-          &lt;p&gt;&lt;a href="txmt://open/?url=file://{{ err.filename|urlencode }}&amp;line={{ err.lineno }}"&gt;Go To Line&lt;/a&gt;&lt;/p&gt;
+          &lt;p&gt;&lt;a href="txmt://open/?url=file://{{ err.filename|urlize }}&amp;line={{ err.lineno }}"&gt;Go To Line&lt;/a&gt;&lt;/p&gt;
         ''').render(err=err)
     else:
         print '&lt;h2&gt;Success&lt;/h2&gt;'
@@ -52,7 +52,7 @@ rm $TMPFILE</string>
 	<key>output</key>
 	<string>showAsHTML</string>
 	<key>scope</key>
-	<string>source.jinja, text.html.jinja</string>
+	<string>source.jinja2, text.html.jinja2</string>
 	<key>uuid</key>
 	<string>07198D95-F344-47EB-B1F2-69F2DC10BA1F</string>
 </dict>

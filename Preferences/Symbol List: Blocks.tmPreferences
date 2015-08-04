@@ -5,7 +5,7 @@
 	<key>name</key>
 	<string>Symbol List: Blocks</string>
 	<key>scope</key>
-	<string>meta.scope.jinja.tag variable.other.jinja.block</string>
+	<string>meta.scope.jinja2.tag variable.other.jinja2.block</string>
 	<key>settings</key>
 	<dict>
 		<key>showInSymbolList</key>
