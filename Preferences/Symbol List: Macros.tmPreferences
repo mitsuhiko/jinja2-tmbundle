@@ -5,7 +5,7 @@
 	<key>name</key>
 	<string>Symbol List: Blocks</string>
 	<key>scope</key>
-	<string>variable.other.jinja.macro</string>
+	<string>variable.other.jinja2.macro</string>
 	<key>settings</key>
 	<dict>
 		<key>showInIndexedSymbolList</key>
